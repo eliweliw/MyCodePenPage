@@ -1,0 +1,90 @@
+.nav-wrapper {
+    height: 100px;
+    background-color: black;
+    Display: grid;
+    grid-template-columns: 0.7fr 1.8fr 1.26fr;
+}
+
+.nav-wrapper > .logo img {
+    Height: 40px;
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.nav-wrapper > .buttons-wrapper > .btn-wrapper > Button {
+    background-color: rgba(128, 128, 128, 0.425);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    font-size: 1.7em;
+    padding: 20px;
+    outline: none;
+    border: 0px solid rgba(128, 128, 128, 0.425);
+    margin-right: 20px;
+}
+
+.nav-wrapper > .buttons-wrapper > .btn-wrapper > Button > .angle-down {
+    color: rgb(100, 200, 100);
+    padding-left: 10px;
+}
+
+.nav-wrapper > .buttons-wrapper > .question {
+    font-size: 2.5em;
+    color: grey;
+    padding-right: 35px;
+    padding-left: 15px;
+} 
+
+.nav-wrapper > .buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 79px;
+}
+
+.nav-wrapper > .center-column > .pens-projects-posts-collections{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-wrapper > .center-column > .pens-projects-posts-collections > .row-1 {
+    color: rgba(255, 255, 0, 0.795);
+    font-family: 'roboto' , sans-serif;
+    font-size: 1.4em;
+}
+
+.nav-wrapper > .center-column {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper > .center-column > .pens-projects-posts-collections > .row-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.nav-wrapper > .center-column > .pens-projects-posts-collections > .row-2 > .pppc {
+    color: white;
+    font-weight: 900;
+    margin-right: 45px;
+    font-size: 1.5em;
+    font-family: 'roboto' , sans-serif;
+    word-spacing: 23px;
+}
+
+.nav-wrapper > .center-column > .pens-projects-posts-collections > .row-2 > .spark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-wrapper > .center-column > .pens-projects-posts-collections > .row-2 > .spark > .spark-text {
+    margin-right: 10px;
+    font-family: 'roboto' , sans-serif;
+    font-size: 1.5em;
+}
